@@ -16,15 +16,14 @@
 
 - (void)viewDidLoad
 {
+
     [super viewDidLoad];
 
 	NSDate *date = [[NSDate alloc]init];
 
-	// edited just to see what happens with github
-	// edited for remote master branch
-	FuncLog(@"");
-	BasicLog(@"BasicLog - %@",date);
-	UIAlertLog(@"Alert - %@",date);
+	LogFunc(@"");
+	LogBasic(@"BasicLog - %@",date);
+	LogAlert(@"Alert - %@",date);
 	
 }
 
