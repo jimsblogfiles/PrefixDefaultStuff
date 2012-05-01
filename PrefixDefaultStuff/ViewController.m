@@ -20,7 +20,8 @@
 
 	NSDate *date = [[NSDate alloc]init];
 
-	FuncLog(@"");	
+	// edited just to see what happens with github
+	FuncLog(@"");
 	BasicLog(@"BasicLog - %@",date);
 	UIAlertLog(@"Alert - %@",date);
 	
