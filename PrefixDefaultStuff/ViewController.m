@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+	NSDate *date = [[NSDate alloc]init];
+
+	FuncLog(@"");	
+	BasicLog(@"BasicLog - %@",date);
+	UIAlertLog(@"Alert - %@",date);
+	
 }
 
 - (void)viewDidUnload
