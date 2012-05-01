@@ -14,13 +14,13 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
 
     [super viewDidLoad];
 
 	NSDate *date = [[NSDate alloc]init];
 
+	// see PrefixDefaultStuff-Prefix.pch for details
 	LogFunc(@"");
 	LogBasic(@"BasicLog - %@",date);
 	LogAlert(@"Alert - %@",date);
